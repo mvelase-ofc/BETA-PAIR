@@ -58,7 +58,7 @@ router.get('/', async (req, res) => {
 				   let b64data = Buffer.from(data).toString('base64');
 				   let session = await Qr_Code_By_Mvelase_Tech.sendMessage(Qr_Code_By_Mvelase_Tech.user.id, { text: '' + b64data });
 	
-				   let TECHSYNC-MD_TEXT = `
+				   let TECHSYNC_MD_TEXT = `
 *𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐎𝐑 𝐁𝐘 𝐌𝐕𝐄𝐋𝐀𝐒𝐄 𝐓𝐄𝐂𝐇 𝐇𝐔𝐁.*
 _______________________________
 
